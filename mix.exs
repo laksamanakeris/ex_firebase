@@ -26,13 +26,13 @@ defmodule ExFirebase.MixProject do
 
   defp deps do
     [
-      {:jose, "~> 1.8"},
-      {:poison, "~> 3.1"},
-      {:httpoison, "~> 1.4"},
-      {:gen_stage, "~> 0.14.1"},
-      {:gproc, "~> 0.5.0"},
+      {:jose, "~> 1.11.2"},
+      {:poison, "~> 5.0.0"},
+      {:httpoison, "~> 1.8"},
+      {:gen_stage, "~> 1.1.2"},
+      {:gproc, "~> 0.9.0"},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
-      {:dialyxir, "~> 1.0.0-rc.4", only: [:dev], runtime: false}
+      {:dialyxir, "~> 1.1.0", only: [:dev], runtime: false}
     ]
   end
 
