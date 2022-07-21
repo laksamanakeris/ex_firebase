@@ -27,7 +27,7 @@ defmodule ExFirebase.MixProject do
   defp deps do
     [
       {:jose, "~> 1.11.2"},
-      {:poison, "~> 4.0.0"},
+      {:poison, "~> 4.0"},
       {:httpoison, "~> 1.8"},
       {:gen_stage, "~> 1.1.2"},
       {:gproc, "~> 0.9.0"},
